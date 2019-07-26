@@ -2,7 +2,8 @@
 int binarysearch(int arr[],int srt,int end,int ser)
 {
        int mid=srt+(end-1)/2;
-       if(srt==end&&arr[mid]!=ser)
+       //int mid=((unsigned int)srt+(unsigned int)end)>>1
+       if(srt>end)
        {
            return -1;
        }
@@ -36,11 +37,11 @@ int main()
     int res=binarysearch(arr,0,n-1,sr);
     if(res==-1)
     {
-        printf("Not Found");
+        printf("Not Found\n");
     }
     else
     {
-        printf("index: %d",res);
+        printf("index: %d\n",res);
     }
     return 0;
 }
