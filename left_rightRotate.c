@@ -5,7 +5,6 @@ void leftRotate(int arr[],int d,int n)
 {
 	int temp[d];
 	int n1=n/2;
-	int n2=n/2;
 	for(int i=0;i<d;i++)
 	{
 		temp[i]=arr[n1++];
