@@ -1,7 +1,7 @@
 #include <stdio.h>
 int binarysearch(int arr[],int srt,int end,int ser)
 {
-       int mid=srt+(end-1)/2;
+       int mid=srt+(end-srt)/2;
        //int mid=((unsigned int)srt+(unsigned int)end)>>1
        if(srt>end)
        {
