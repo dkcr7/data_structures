@@ -59,7 +59,11 @@ int main()
 	int index1;
 	if(index==-1)
 	{
+<<<<<<< HEAD
 		index1=binarySearch(arr,p+1,n-1,num);
+=======
+		index1=binarySearch(arr,p+1,n-p,num);
+>>>>>>> binary search in rotated array by dividing array in two arrays
 		printf("\nindex: %d\n",index1);
 	}
 	else
