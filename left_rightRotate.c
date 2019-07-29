@@ -4,7 +4,11 @@
 void leftRotate(int arr[],int d,int n)
 {
 	int temp[d];
+<<<<<<< HEAD
 	int n1=n/2;
+=======
+	int n2=n/2;
+>>>>>>> left rotate the first and right rotate the second half of an array
 	for(int i=0;i<d;i++)
 	{
 		temp[i]=arr[n1++];
