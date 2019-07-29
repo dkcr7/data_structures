@@ -1,8 +1,13 @@
 #include <stdio.h>
 int binarysearch(int arr[],int srt,int end,int ser)
 {
+<<<<<<< HEAD
        int mid=srt+(end-srt)/2;
        //int mid=((unsigned int)srt+(unsigned int)end)>>1
+=======
+       int mid=srt+(end-srt)/2;//method-1
+       //int mid=((unsigned int)srt+(unsigned int)end)>>1//method-2 only works in c/c++	
+>>>>>>> binarysearch
        if(srt>end)
        {
            return -1;
