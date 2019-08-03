@@ -12,7 +12,6 @@ int rotate(int m1,int n1,int arr[m][n],int i,int j)
         return 0;
     
     //2d to 1d array
-    else{
     while(j<m1)
     {
         arr1[k++]=arr[i][j];
@@ -76,7 +75,6 @@ int rotate(int m1,int n1,int arr[m][n],int i,int j)
         i--;
     }
     return rotate(m1-1,n1-1,arr,i+1,j+1);
-    }
 }
 int main()
 {
